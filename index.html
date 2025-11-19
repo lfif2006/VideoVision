@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Security System - VideoVision</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <header class="header">
+
+    <a class="header-logo" href="/">
+      <img class="header-logo-image" src="./icons/logo.svg" alt="VideoVision Logo" width="75" height="73">
+      <div class="header-logo-text">
+        <span class="header-logo-line1">SS</span>
+        <span class="header-logo-line2">VideoVision</span>
+      </div>
+    </a>
+
+    <nav class="header-menu">
+      <ul class="header-menu-list">
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="/">Наши услуги</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="/">Преимущества</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="/">О компании</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="/">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <a href="/" class="header-icon-phone">
+        <img src="./icons/iconPhone.svg" alt="Icone Phone" width="38" height="38" loading="lazy">
+      </a>
+      <button class="header-button-contact" type="button">
+        <span class="header-button-contact-text">Связаться</span>
+        <img class="header-button-image" src="./icons/iconContact.svg" alt="" width="32" height="32">
+      </button>
+      <button class="header-button-burger" type="button">
+        <img class="header-button-burger-image" src="./icons/buttonBurger.svg" alt="" width="44" height="20">
+      </button>
+    </div>
+  </header>
+
+  <main class="content">
+
+    <section class="hero">
+
+      <div class="hero-block1">
+        <div class="hero-banner">
+          <h1 class="hero-banner-title">Security System - <br> VideoVision</h1>
+          <span class="hero-banner-infotext">профессиональная установка <br> видеонаблюдения</span>
+        </div>
+
+        <div class="hero-feature-list">
+          <span class="hero-feature-item text-wrapper">Продажа и установка видеонаблюдения под ключ</span>
+          <span class="hero-feature-item text-wrapper">Комплексное внедрение</span>
+          <span class="hero-feature-item text-wrapper">Гарантия качества</span>
+
+        </div>
+
+        <button class="hero-button" type="button" aria-label="Оставить заявку">
+          <span class="hero-button-text">Оставить заявку</span>
+          <img class="hero-button-image" src="./icons/iconApplication.svg" alt="" width="21" height="19">
+        </button>
+      </div>
+
+      <div class="hero-block2">
+
+        <div class="hero-image">
+          <img class="hero-image-protection" src="./images/protectionHero.svg" alt="Picture Indicating Protection"
+            width="430" height="370" loading="lazy">
+
+          <img class="hero-image-camera" src="./images/cameraHero.png" alt="Camera Picture" width="387" height="387"
+            loading="lazy">
+        </div>
+
+        <div class="hero-progress-and-button">
+
+          <div class="hero-full-progress">
+            <span class="hero-current">01</span>
+            <div class="hero-progress">
+              <progress id="file" max="3" value="1">30%</progress>
+            </div>
+            <span class="hero-current">03</span>
+          </div>
+
+
+
+          <div class="hero-direction-buttons">
+            <button class="hero-direction-but" aria-label="Предыдущий">
+              <img class="hero-direction-but1" src="./icons/buttonDirection.png" alt="">
+            </button>
+            <button class="hero-direction-but" aria-label="Следующий">
+              <img class="hero-direction-but2" src="./icons/buttonDirection.png" alt="">
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="services">
+      <h2 class="services-title title-section">Наши услуги</h2>
+
+      <div class="services-card-flex">
+
+        <div class="services-card text-wrapper">
+          <div class="services-card-text">
+            <h4 class="services-card-title">Подбор<br> оборудования</h4>
+            <p class="services-card-description">Продажа оборудования для видеонаблюдения.
+              Подбор оборудования под конкретные нужды: от
+              бюджетного, до профессионального
+            </p>
+          </div>
+          <div class="services-card-icon">
+            <img class="services-card-icon-image" src="./icons/iconEquipmentSelection.svg" alt="" width="117"
+              height="140" loading="lazy">
+          </div>
+        </div>
+
+        <div class="services-card text-wrapper">
+          <div class="services-card-text">
+            <h4 class="services-card-title">Монтаж <br> оборудования</h4>
+            <p class="services-card-description">Выезд на объект. Установка систем видеонаблюдения
+              с доступом к архиву записей и онлайн-мониторингу 24/7
+              с Вашего мобильного устройства
+
+            </p>
+          </div>
+          <div class="services-card-icon">
+            <img class="services-card-icon-image" src="./icons/iconEquipmentMounting.svg" alt="" width="166"
+              height="163" loading="lazy">
+          </div>
+        </div>
+
+        <div class="services-card text-wrapper">
+          <div class="services-card-text">
+            <h4 class="services-card-title">Сопровождение</h4>
+            <p class="services-card-description">Обслуживание и настройка камер и систем видеонаблюдения
+            </p>
+          </div>
+          <div class="services-card-icon">
+            <img class="services-card-icon-image" src="./icons/iconEscort.svg" alt="" width="144" height="144"
+              loading="lazy">
+          </div>
+        </div>
+
+        <div class="services-card text-wrapper">
+          <div class="services-card-text">
+            <h4 class="services-card-title">Разноплановая<br> деятельность</h4>
+            <p class="services-card-description">Осуществляем установку и обслуживание СКУД (системы контроля
+              и управления доступом), видеодомофонии и прокладку СКС
+              (структурированных кабельных систем)
+            </p>
+          </div>
+          <div class="services-card-icon">
+            <img class="services-card-icon-image" src="./icons/iconDiverseActivities.svg" alt="" width="156"
+              height="156" loading="lazy">
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="advantages">
+      <h2 class="advantages-title title-section">Преимущества</h2>
+
+
+      <div class="advantages-list">
+        <div class="advantages-item1">
+          <span class="advantages-item-count">5+</span>
+          <span class="advantages-item-text">лет на рынке</span>
+        </div>
+
+        <div class="advantages-item1">
+          <span class="advantages-item-count">1500+</span>
+          <span class="advantages-item-text">видеокамер установлено</span>
+        </div>
+
+        <div class="advantages-item1">
+          <span class="advantages-item-count">250+</span>
+          <span class="advantages-item-text">довольных клиентов</span>
+        </div>
+
+        <div class="advantages-item2 text-wrapper">
+          <span class="advantages-item-text">Гарантия от 3 лет</span>
+          <img class="advantages-item-icon" src="./icons/iconAdvantages1.svg" alt="Гарантия от 3 лет" width="100"
+            height="100" loading="lazy">
+        </div>
+
+        <div class="advantages-item2 text-wrapper">
+          <span class="advantages-item-text">Команда профессионалов</span>
+          <img class="advantages-item-icon" src="./icons/iconAdvantages2.svg" alt="Команда профессионалов" width="100"
+            height="100" loading="lazy">
+        </div>
+
+        <div class="advantages-item2 text-wrapper">
+          <span class="advantages-item-text">Актуальность и следование трендам</span>
+          <img class="advantages-item-icon" src="./icons/iconAdvantages3.svg" alt="Актуальность и следование трендам"
+            width="100" height="100" loading="lazy">
+        </div>
+
+        <div class="advantages-item2 text-wrapper">
+          <span class="advantages-item-text">Оперативность</span>
+          <img class="advantages-item-icon" src="./icons/iconAdvantages4.svg" alt="Оперативность" width="100"
+            height="100" loading="lazy">
+        </div>
+
+        <div class="advantages-item2 text-wrapper">
+          <span class="advantages-item-text">Поддержка 7 дней в неделю</span>
+          <img class="advantages-item-icon" src="./icons/iconAdvantages5.svg" alt="Поддержка 7 дней в неделю"
+            width="100" height="100" loading="lazy">
+        </div>
+      </div>
+
+
+      <div class="advantages-button-flexbox">
+        <button class="advantages-button" aria-label="Оставить заявку на установку видеонаблюдения ">
+          <span class="advantages-button-contact-text">Оставить заявку</span>
+          <img class="advantages-button-image" src="./icons/iconContact.svg" alt="" width="32" height="32">
+        </button>
+      </div>
+
+    </section>
+
+    <section class="necessity">
+      <h2 class="necessity-title title-section">Для чего?</h2>
+
+      <div class="necessity-card-flex">
+        <div class="necessity-card text-wrapper">
+          <div class="necessity-card-icon">
+            <img class="necessity-card-icon-image" src="./icons/iconNecessity1.svg" alt="Жилые многоквартирные дома"
+              width="77" height="77" loading="lazy">
+          </div>
+          <div class="necessity-card-text">
+            <h5 class="necessity-card-title">Жилые многоквартирные дома</h5>
+            <p class="necessity-card-description">Контролировать доступ к дому и подъездам;<br>
+              Наблюдать за общественными зонами, парковками и детскими площадками;<br>
+              Проверять состояние лестничных клеток для быстрого реагирования на чрезвычайные ситуации.
+            </p>
+          </div>
+        </div>
+
+        <div class="necessity-card text-wrapper">
+          <div class="necessity-card-icon">
+            <img class="necessity-card-icon-image" src="./icons/iconNecessity2.svg" alt="Частные дома" width="77"
+              height="77" loading="lazy">
+          </div>
+          <div class="necessity-card-text">
+            <h5 class="necessity-card-title">Частные дома</h5>
+            <p class="necessity-card-description">Удаленно наблюдать за домом через мобильное приложение;<br>
+              Предотвращать кражи и порчу имущества;<br>
+              Отслеживать движения вокруг дома. <br>
+            </p>
+          </div>
+        </div>
+
+        <div class="necessity-card text-wrapper">
+          <div class="necessity-card-icon">
+            <img class="necessity-card-icon-image" src="./icons/iconNecessity3.svg" alt="Кафе, рестораны" width="77"
+              height="77" loading="lazy">
+          </div>
+          <div class="necessity-card-text">
+            <h5 class="necessity-card-title">Кафе, рестораны</h5>
+            <p class="necessity-card-description">Предотвращать кражи и порчу имущества;<br>
+              Обеспечивать безопасность в залах общественного питания;<br>
+              Разрешать конфликтные и спорные ситуации;<br>
+              Повышать уровень сервиса.
+            </p>
+          </div>
+        </div>
+
+        <div class="necessity-card text-wrapper">
+          <div class="necessity-card-icon">
+            <img class="necessity-card-icon-image" src="./icons/iconNecessity4.svg" alt="Автосервис" width="77"
+              height="77" loading="lazy">
+          </div>
+          <div class="necessity-card-text">
+            <h5 class="necessity-card-title">Автосервис</h5>
+            <p class="necessity-card-description">Охранять имущество клиентов и автомобили;<br>
+              Контролировать работу персонала;<br>
+              Решать спорные ситуации с клиентами;<br>
+              Предотвращать кражу запчастей и инструментов;<br>
+              Улучшать уровень обслуживания клиентов.
+            </p>
+          </div>
+        </div>
+
+        <div class="necessity-card text-wrapper">
+          <div class="necessity-card-icon">
+            <img class="necessity-card-icon-image" src="./icons/iconNecessity5.svg" alt="Офис" width="77" height="77"
+              loading="lazy">
+          </div>
+          <div class="necessity-card-text">
+            <h5 class="necessity-card-title">Офис</h5>
+            <p class="necessity-card-description">Сохранять безопасность сотрудников и имущества компании;<br>
+              Контролировать доступ в помещения;<br>
+              Осуществлять мониторинг рабочих процессов и поведения сотрудников.
+            </p>
+          </div>
+        </div>
+
+        <div class="necessity-card text-wrapper">
+          <div class="necessity-card-icon">
+            <img class="necessity-card-icon-image" src="./icons/iconNecessity6.svg" alt="Торговые точки и магазины"
+              width="77" height="77" loading="lazy">
+          </div>
+          <div class="necessity-card-text">
+            <h5 class="necessity-card-title">Торговые точки и магазины</h5>
+            <p class="necessity-card-description">Предотвращать кражу товарати порчу торгового оборудования;<br>
+              Контролировать работу персонала и обслуживание клиентов;<br>
+              Обеспечивать безопасности покупателей и сотрудников.
+            </p>
+          </div>
+        </div>
+
+        <div class="necessity-card text-wrapper">
+          <div class="necessity-card-icon">
+            <img class="necessity-card-icon-image" src="./icons/iconNecessity7.svg" alt="Складские помещения" width="77"
+              height="77" loading="lazy">
+          </div>
+          <div class="necessity-card-text">
+            <h5 class="necessity-card-title">Складские помещения</h5>
+            <p class="necessity-card-description">Осуществлять мониторинг движения грузов и контроль за поставками;<br>
+              Предотвращать кражи и несанкционированный доступ на склад;<br>
+              Улучшать эффективность работы персонала.
+            </p>
+          </div>
+        </div>
+
+        <div class="necessity-card text-wrapper">
+          <div class="necessity-card-icon">
+            <img class="necessity-card-icon-image" src="./icons/iconNecessity8.svg" alt="Производственные помещения"
+              width="77" height="77" loading="lazy">
+          </div>
+          <div class="necessity-card-text">
+            <h5 class="necessity-card-title">Производственные помещения</h5>
+            <p class="necessity-card-description">Контролировать доступ к дому и подъездам;<br>
+              Наблюдать за общественными зонами, парковками и детскими площадками;<br>
+              Проверять состояние лестничных клеток для быстрого реагирования на чрезвычайные ситуации.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="company">
+      <h2 class="company-title title-section">О компании</h2>
+      <div class="company-textbox text-wrapper">
+        <h3 class="company-textbox-title">
+          SS - VIDEOVISION
+        </h3>
+        <p class="company-textbox-description">Наша компания занимается установкой и обслуживанием систем
+          видеонаблюдения в Чебоксарах и Чувашской Республике. Динамично развивающаяся компания, открытая к
+          взаимовыгодному сотрудничеству. Успешно работаем в сфере систем безопасности с 2019 года. Осуществляем
+          комплексные поставки оборудования
+          для видеонаблюдения ведущих мировых производителей −
+          от сложнотехнического оборудования до монтажных материалов. Мы стремимся к выстраиванию взаимовыгодных и
+          долгосрочных отношений с нашими клиентами и партнерами.</p>
+      </div>
+    </section>
+
+    <section class="projects">
+      <h2 class="projects-title title-section">Наши работы</h2>
+
+      <div id="projectsCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="project-image">
+              <img class="img-fluid" src="./images/imageCase1.png" alt="Установка в отделении ЗАГС">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="project-image">
+              <img class="img-fluid" src="./images/imageCase2.png" alt="Монтаж в бизнес-центре">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="project-image">
+              <img class="img-fluid" src="./images/imageCase3.png" alt="Охрана торгового центра">
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Кастомные контролы -->
+        <div class="carousel-controls-custom">
+          <div class="progress-section">
+            <span class="current-slide">01</span>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 33%"></div>
+            </div>
+            <span class="total-slides">03</span>
+          </div>
+          <div class="navigation-buttons">
+            <button class="carousel-control-prev-custom" type="button" data-bs-target="#projectsCarousel"
+              data-bs-slide="prev">
+              <img src="./icons/buttonDirection.png" alt="Предыдущий">
+            </button>
+            <button class="carousel-control-next-custom" type="button" data-bs-target="#projectsCarousel"
+              data-bs-slide="next">
+              <img src="./icons/buttonDirection.png" alt="Следующий" style="transform: scaleX(-1);">
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq">
+      <h2 class="faq-title title-section">Частые вопросы</h2>
+      <div class="accordion">
+
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+              <p class="question-text">Как быть уверенным в качестве работ?</p>
+            </button>
+          </div>
+          <div id="faq1" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <p class="accordion-body-text">
+                Мы предоставляем гарантию на все работы и оборудование. Все наши специалисты имеют сертификаты и
+                регулярно
+                проходят обучение. Также вы можете посмотреть отзывы наших клиентов и примеры выполненных работ.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq2"
+              aria-expanded="true">
+              <p class="question-text">У меня маленький офис. Нужно всего 4 камеры. Сделаете?</p>
+            </button>
+          </div>
+          <div id="faq2" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              <p class="accordion-body-text">
+                Конечно! Выполняем любые заказы - мелкие частные и крупные промышленные.<br>Мы рады каждому клиенту!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+              <p class="question-text">За счёт чего вы даёте скидки до 20%?</p>
+            </button>
+          </div>
+          <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              <p class="accordion-body-text">
+                Скидки предоставляются за счёт прямых поставок оборудования от производителей, оптимизации рабочих
+                процессов и при крупных заказах. Также действуют сезонные акции и специальные предложения для постоянных
+                клиентов.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="vendors">
+      <h2 class="vendors-title title-section">Наши вендоры</h2>
+      <div class="vendors-logo-flexbox">
+        <img class="vendors-logo-image" src="./images/logoVendor1.png" alt="Вендор HIKVISION" width="290" height="39"
+          loading="lazy">
+
+        <img class="vendors-logo-image" src="./images/logoVendor2.png" alt="Вендор TRASSIR" width="176" height="48"
+          loading="lazy">
+
+        <img class="vendors-logo-image" src="./images/logoVendor3.png" alt="Вендор BEWARD" width="176" height="48"
+          loading="lazy">
+
+        <img class="vendors-logo-image" src="./images/logoVendor4.png" alt="Вендор HiWatch" width="176" height="48"
+          loading="lazy">
+
+        <img class="vendors-logo-image" src="./images/logoVendor5.png" alt="Вендор EZVIZ" width="176" height="48"
+          loading="lazy">
+
+        <img class="vendors-logo-image" src="./images/logoVendor6.png" alt="Вендор SIGUR" width="176" height="48"
+          loading="lazy">
+
+        <img class="vendors-logo-image" src="./images/logoVendor7.png" alt="Вендор RVI" width="176" height="48"
+          loading="lazy">
+
+        <img class="vendors-logo-image" src="./images/logoVendor8.png" alt="Вендор PERCo" width="176" height="48"
+          loading="lazy">
+
+        <img class="vendors-logo-image" src="./images/logoVendor9.png" alt="Вендор Rubezh" width="176" height="48"
+          loading="lazy">
+
+        <img class="vendors-logo-image" src="./images/logoVendor10.png" alt="Вендор Boud" width="176" height="48"
+          loading="lazy">
+
+        <img class="vendors-logo-image" src="./images/logoVendor11.png" alt="Вендор Space Techology" width="176"
+          height="48" loading="lazy">
+
+        <img class="vendors-logo-image" src="./images/logoVendor12.png" alt="Вендор LTV" width="176" height="48"
+          loading="lazy">
+      </div>
+    </section>
+
+    <section class="clients">
+      <h2 class="clients-title title-section">Наши клиенты</h2>
+
+      <div class="clients-logo-flexbox">
+        <img class="clients-logo-image" src="./images/logoClient1.png" alt="Клиент ВНИИР" width="227" height="37"
+          loading="lazy">
+
+
+        <img class="clients-logo-image" src="./images/logoClient2.png" alt="Клиент ВТБ" width="166" height="63"
+          loading="lazy">
+
+
+        <img class="clients-logo-image" src="./images/logoClient3.png" alt="Клиент BERSERKER" width="198" height="71"
+          loading="lazy">
+
+
+        <img class="clients-logo-image" src="./images/logoClient4.png" alt="Клиент Rostelecom" width="314" height="91"
+          loading="lazy">
+
+      </div>
+    </section>
+
+    <section class="application-form" aria-labelledby="application-heading">
+
+      <div class="application-form-content">
+        <div class="contact-form-section">
+          <p id="application-heading" class="application-title">Оставьте заявку</p>
+          <p class="application-subtitle">Мы обязательно свяжемся с Вами!</p>
+
+          <form class="contact-form">
+            <div class="form-group">
+              <input type="text" class="form-control" id="name" required placeholder="Имя">
+            </div>
+
+            <div class="form-group">
+              <input type="tel" class="form-control text-wrapper" id="phone" required placeholder="Телефон">
+            </div>
+
+            <button type="submit" class="submit-button">
+              <p class="submit-agreement-text">Отправить заявку</p>
+              <img class="agreement-button-image" src="./icons/iconContact.svg" alt="" width="21" height="19">
+            </button>
+
+            <p class="agreement-text">
+              Нажимая кнопку "Оставить заявку", вы даете согласие на отправку и обработку своих персональных данных
+            </p>
+          </form>
+        </div>
+
+        <div class="calculator-section">
+          <div class="calculator-form">
+
+            <div class="calculator-group">
+              <label class="calculator-label">Количество камер</label>
+              <div class="quantity-selector">
+                <div class="quantity-progress">
+                  <progress id="file" max="10" value="5">50%</progress>
+                </div>
+                <div class="quantity-current-list">
+                  <span class="quantity-current">01</span>
+                  <span class="quantity-current">10</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="calculator-group">
+              <label class="calculator-label">Разрешение видеокамеры</label>
+              <div class="resolution-options">
+                <label class="radio-option">
+                  <input type="radio" name="resolution" value="2MP" checked>
+                  <span class="radio-custom"></span>
+                  <span class="radio-text">2MP</span>
+                </label>
+                <label class="radio-option">
+                  <input type="radio" name="resolution" value="4MP">
+                  <span class="radio-custom"></span>
+                  <span class="radio-text">4MP</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="calculator-group">
+              <label class="calculator-label">Дополнительные опции</label>
+              <div class="options-list">
+                <label class="checkbox-option">
+                  <input type="checkbox" name="options" value="ups">
+                  <span class="checkbox-custom"></span>
+                  <span class="checkbox-text">Источник бесперебойного питания</span>
+                </label>
+                <label class="checkbox-option">
+                  <input type="checkbox" name="options" value="router">
+                  <span class="checkbox-custom"></span>
+                  <span class="checkbox-text">4G-роутер и модем</span>
+                </label>
+                <label class="checkbox-option">
+                  <input type="checkbox" name="options" value="recorder">
+                  <span class="checkbox-custom"></span>
+                  <span class="checkbox-text">Видеорегистратор</span>
+                </label>
+                <label class="checkbox-option">
+                  <input type="checkbox" name="options" value="sound">
+                  <span class="checkbox-custom"></span>
+                  <span class="checkbox-text">Видеокамеры с записью звука</span>
+                </label>
+                <label class="checkbox-option">
+                  <input type="checkbox" name="options" value="box">
+                  <span class="checkbox-custom"></span>
+                  <span class="checkbox-text">Закрывающийся ящик для оборудования</span>
+                </label>
+                <label class="checkbox-option">
+                  <input type="checkbox" name="options" value="warranty">
+                  <span class="checkbox-custom"></span>
+                  <span class="checkbox-text">Дополнительная гарантия 1 год</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="calculator-total">
+              <div class="total-label">Итоговая сумма:</div>
+              <div class="total-amount" id="totalAmount">0 руб.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <nav class="footer-menu" aria-label="Основная навигация">
+        <ul class="footer-menu-list">
+          <li class="footer-menu-item">
+            <a class="footer-menu-link" href="#">Наши услуги</a>
+          </li>
+          <li class="footer-menu-item">
+            <a class="footer-menu-link" href="#">Преимущества</a>
+          </li>
+          <li class="footer-menu-item">
+            <a class="footer-menu-link" href="#">О компании</a>
+          </li>
+          <li class="footer-menu-item">
+            <a class="footer-menu-link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="footer-contacts">
+        <a class="footer-contacts-link" href="#" aria-label="Позвонить по номеру телефона">+7 (8352) 229-227</a>
+        <a class="footer-contacts-link" href="#" aria-label="Связаться по почте">info@pochta.ru</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+
+      <div class="footer-logo">
+        <img class="footer-logo-image" src="./icons/logo.svg" alt="Логотип компании VideoVision" width="75" height="73"
+          loading="lazy">
+        <div class="footer-logo-text">
+          <span class="footer-logo-line1">SS</span>
+          <span class="footer-logo-line2">VideoVision</span>
+        </div>
+      </div>
+
+      <div class="footer-social-networking">
+        <a class="footer-whatsapp" href="#">
+          <img class="footer-whatsapp-icon" src="./icons/iconWhatsapp.svg" alt="Связаться через Whatsapp" width="32"
+            height="32"></a>
+
+        <a class="footer-telegram" href="#">
+          <img class="footer-telegram-icon" src="./icons/iconTelegram.svg" alt="Связаться через Telegram" width="44"
+            height="44"></a>
+
+        <a class="footer-vk" href="#">
+          <img class="footer-vk-icon" src="./icons/iconVk.svg" alt="Связаться через VK" width="49" height="49"></a>
+      </div>
+
+      <div class="footer-legal">
+        <span class="footer-copyright">ООО "БТГ" 2025</span>
+        <a class="footer-legal-link" href="#" aria-label="Просмотр политики конфиденциальности">Политика
+          конфиденциальности</a>
+      </div>
+
+      <div class="footer-developer-logo">
+        <span class="footer-developer-logo-text">by in</span>
+        <img class="footer-developer-logo-image" src="./icons/iconHiTech.svg" alt="Логотип разработчика HI-TECH"
+          width="80" height="64">
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
